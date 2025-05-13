@@ -3,7 +3,8 @@ public class SquarePattern {
 
     public static void main(String ar[]){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter a Number : ");
+        
+        System.out.print("Enter a Number : ");
         int num =sc.nextInt();
 
         for(int i=1; i<=num; i++){
